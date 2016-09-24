@@ -7,10 +7,6 @@ output: html_document
 #Путешественники-транжиры?
 ##Пункт 1
 ------
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ```{r American_Express}
 summary(American_Express)
 sd(American_Express$Miles..X)

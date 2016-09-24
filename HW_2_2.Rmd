@@ -7,10 +7,6 @@ output: html_document
 #Сколько ты съешь мороженого в различных погодных условиях?
 ##Пункт 1
 ------
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ```{r icecream}
 summary(icecream)
 sd(icecream$temp..Degrees.Celsius.)
