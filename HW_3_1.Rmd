@@ -61,7 +61,7 @@ summary(fitr)
 ------
 ```{r AmericanExpress}
 new.costs<-data.frame(Miles=c(6000))
-predict(fitr,data=new.costs)
+predict(fitr,newdata=new.costs)
 ```
  Менеджер предсказал бы для владельца карточки, который «напутешествовал» 6000 миль, видя линию регрессии, полученную с помощью метода наименьших квадратов, расходы в размере 7806.852 у.е.
  
