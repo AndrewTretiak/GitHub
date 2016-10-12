@@ -59,6 +59,8 @@ m_full$residuals
 ##Пункт 7 (Удаление переменной)
 ```{r google}
 step <- stepAIC(m_full, direction="both")
+k_full = lm (complied~requests+pop+hdi, data = goog_sub)
+summary(k_full)
 ```
 
  Проведем анализ того, как меняются коэффициенты и значение других объясняющих переменных с помощью метода пошаговой регрессии (backward).  
